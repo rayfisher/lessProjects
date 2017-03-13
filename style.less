@@ -1,0 +1,82 @@
+@myfontcolor: #red;
+
+#mydiv {
+
+  background-color: #fff;
+
+  a {color: #fff;}
+  p {margin: 0 auto;}
+  .titlerow {font-size: 14px;}
+}
+
+#item{
+  width: 10px;
+}
+
+
+
+.popup {
+
+  a  {
+    color: @myfontcolor;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+-->
+
+
+
+
+
+.header {
+  position: fixed;
+  width: 100%
+}
+
+
+body{
+  margin:0;
+  width: 0;
+  width: 100%;
+  height: auto;
+}
+
+.parallax{
+
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgone{
+  background-image: url('lamb.jpg');
+  width: 100%;
+  height: auto;
+}
+
+.imgtwo{
+  background-image: url('rover.jpg');
+  width: 100%;
+  height: auto;
+}
+
+.whitesection{
+  background-color: #dfdfdf;
+  @mycolor: red;
+  padding: 15px;
+  min-height: 900px;
+  width: 100%;
+}
+
+.content{
+  background-color: rbga(0,0,0,.5);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #f4f4f4;
+  padding-top: 150px;
+  size: 50px;
+}
